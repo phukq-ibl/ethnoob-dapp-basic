@@ -1,0 +1,17 @@
+{
+  "name": "ethnoob-contract-interact",
+  "authors": [
+    "phukq@blockchainlabs.asia"
+  ],
+  "description": "ethereum contract interact",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cert & Metamask</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <h2>Issue cetificate</h2>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <form action="">
+        <div class="form-group">
+          <label for="rate">Rate(number)</label>
+          <input type="text" class="form-control" id="rate">
+        </div>
+        <div class="form-group">
+          <label for="files">Cetificate image</label>
+          <input type="file" id="files" name="files" class="form-control-file border" />
+        </div>
+        <div class="form-group" id="hashgroup">
+            <label for="files">Cetificate hash</label>
+            <input type="input" id="hash" class="form-control"/>
+          </div>
+        <button type="button" class="btn btn-primary" id="submit">Submit</button>
+        
+      </form>
+      <div class="alert alert-success" id= "result">
+          <strong>Success!</strong> <a href="#" id="txid"></a>
+        </div>
+      <output id="list"></output>
+    </div>
+
+    <script>
+
+    </script>
+    <script src="../abi.js"></script>
+    <script src="../readfile.js"></script>
+    <script src="../metamask/index.js"></script>
+  </div>
+
+</body>
+
+</html>
